@@ -1,0 +1,25 @@
+
+Description	Wiki Syntax                                         moin syntax
+
+.  underline	===text===                                          __text__
+title bar	-=text=-                                            {{{#!wiki red/solid\n  text \n}}}
+list numbers	#text                                               1. item 1
+list bullets	*text                                               * item 1
+italic	        ''text''                                            ''text'' 
+bold	        __text__                                            '''text''' 
+external link	[http://example.com|text]                           [[http:foo|plain text foo]]
+horizontal rule	---                                                 ----
+heading3	!!!text                                             === text ===
+heading2	!!text                                              == text ==
+heading1	!text                                               = text =
+deleted	        --text--                                            --(text)--
+
+
+
+table new	||r1c1|r1c2|r1c3 r2c1|r2c2|r2c3 r3c1|r3c2|r3c3||    ||r1c1|r1c2|r1c3||r2c1|r2c2|r2c3||r3c1|r3c2|r3c3||
+table new	||r1c1|r1c2 r2c1|r2c2||                             ||r1c1|r1c2||r2c1|r2c2||  
+wiki link	((text))                                            JoinCapWords :(
+image   	{img src= width= height= align= desc= link= }       {{attachment:chair.jpg||align="left"}} 
+Email Address	[mailto:text|text]                                  user@example.com
+code	        popup_plugin_form("code")                           {{{code}}}
+box	        ^text^                                              {{{#!wiki caution\n text \n}}}
